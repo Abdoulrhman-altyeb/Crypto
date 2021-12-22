@@ -1,0 +1,78 @@
+.contianer {
+  height: 50vh;
+}
+.mainContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.imgMainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.25;
+}
+.imgContainer {
+  overflow: hidden;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.selectedImg {
+  height: min(300px, 30vw);
+  object-fit: cover;
+}
+.mainDetails {
+  display: flex;
+  flex: 0.75;
+  flex-direction: column;
+}
+.title {
+  font-size: 4.5rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+.title > span {
+  color: #5c5c5c;
+}
+.owner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.owenerDetails {
+  display: flex;
+  align-items: center;
+}
+.owenerDetails > img {
+  height: 60px;
+  border-radius: 50%;
+}
+
+.ownerInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.ownerAdress {
+  color: rgb(21, 189, 189);
+}
+.ownerContact {
+  display: flex;
+}
+.ownerContact > div {
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.ownerContact > div > img {
+  height: 50px;
+}
+.ownerIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

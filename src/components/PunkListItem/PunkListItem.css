@@ -1,0 +1,34 @@
+.punkListItem {
+  flex: 0 0 auto;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  background: #1c1c1c;
+  color: white;
+  margin-right: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.itemImg {
+  width: 100%;
+}
+.details {
+  padding: 20px;
+}
+.details p {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+.wethImg {
+  width: 13px;
+  height: 16px;
+  margin-right: 10px;
+}
+.price {
+  display: flex;
+  align-items: center;
+}
+.priceT {
+  font-size: 14px;
+  display: inline-block;
+}
