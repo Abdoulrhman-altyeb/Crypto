@@ -1,5 +1,5 @@
-### Starter Project for the Material UI playlist
+### Start your project with third web
 
-Download the code & run **npm install** to install dependencies before starting the app.
-
-You'll also need to install Material UI as a dependency. To do this run **npm install @material-ui/core**
+#Smart contracts you control. Tools that accelerate your workflow.
+#Intuitive SDKs and widgets for developers.
+#MetaMask for adding a wallet
